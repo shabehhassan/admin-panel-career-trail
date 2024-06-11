@@ -1,0 +1,132 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    color: white;
+}
+.container{
+    height: 100vh;
+    display: flex;
+}
+.box1{
+    height: 100%;
+    width: 30%;
+    background: url(bg.png) center center;
+    background-size: cover;
+}
+.box2{
+    width: 70%;
+    background: #050E25 center center fixed;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+img{
+    display: none;
+}
+.foot{
+    margin-top: 110px;
+}
+.form{
+    margin-top: 50px;
+}
+
+.heading{
+    font-size: 2rem;
+}
+.email,.password,.username,.cnfrm-password{
+    margin-block: 5px;
+    width: 300px;
+    background: #011E40;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+.btn{
+    width: 320px;
+    padding: 9px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: #257EE0;
+    color: white;
+    margin-top: 20px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.register{
+    color: #257EE0;
+    text-decoration: none;
+}
+@media(max-width:1446px){
+    .box1{
+        width: 35%;
+    }
+}
+@media(max-width:1298px){
+    .box1{
+        width: 40%;
+    }
+}
+@media(max-width:1170px){
+    .box1{
+        width: 45%;
+    }
+}
+@media(max-width:1078px){
+    .box1{
+        width: 50%;
+    }
+}
+@media(max-width:1022px){
+    .box1{
+        width: 60%;
+    }
+}
+@media(max-width:926px){
+    .box1{
+        display: none;
+    }
+    .box2{
+        width: 100%;
+    }
+    img{
+        display: block;
+    }
+    .form{
+        margin-top: 0px;
+    }
+}
+@media(max-width:360px){
+    .email,.password,.username,.cnfrm-password{
+        width: 250px;
+    }
+    .btn{
+        width: 265px;
+    }
+    .foot{
+        width: 100%;
+        height: 20px;
+    }
+}
+@media(max-width:330px){
+    .email,.password,.username,.cnfrm-password{
+        width: 200px;
+    }
+    .btn{
+        width: 225px;
+    }
+    .foot{
+        width: 80%;
+        height: 19px;
+        margin-left: 22px;
+    }
+    
+}
